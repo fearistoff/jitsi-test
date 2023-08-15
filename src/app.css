@@ -1,0 +1,64 @@
+html {
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif, system-ui;
+  height: 100vh;
+}
+
+h1 {
+  margin: 0 0 24px;
+}
+
+#app {
+  height: 100%;
+}
+
+.main {
+  display: flex;
+  height: 100%;
+}
+
+.sidebar {
+  overflow: auto;
+  padding: 8px;
+}
+
+.sidebar label, .sidebar span {
+  display: block;
+}
+
+.sidebar label {
+  margin-bottom: 24px;
+  user-select: none;
+}
+
+.sidebar span {
+  margin-bottom: 8px;
+}
+
+.frame-container {
+  flex: 1 0;
+  background-color: #f0f2f3;
+}
+
+input[type=text], textarea {
+  border-radius: 8px;
+  border: 1px solid #d0d2d3;
+  padding: 10px;
+}
+
+input[type=text] {
+  width: calc(100% - 22px);
+}
+
+input[type=checkbox] {
+  margin-right: 10px;
+}
+
+input[type=checkbox] ~ span {
+  display: inline;
+  user-select: none;
+}
